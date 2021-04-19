@@ -1,0 +1,22 @@
+{
+  "name": "bitsalt/bitsaltapi",
+  "description": "A simple API without the excess of a framework.",
+  "require": {
+    "vlucas/phpdotenv": "^2.4",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\":  "src/",
+      "mysql\\": "mysql/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
